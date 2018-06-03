@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    margin:0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+ }
+
+ mat-sidenav-container{
+    position: fixed;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+   
+}
+
+mat-nav-list .mat-card-md-image {
+    margin: 1.5em;
+    border-radius: 200px;
+    border: 2px solid #000; 
+}
+
+mat-sidenav {
+    width: 25%;
+}
+#content{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 65px;
+    z-index: -1;
+    overflow-x: auto;
+}
